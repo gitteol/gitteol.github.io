@@ -1,0 +1,21 @@
+.header {
+  margin: 80px auto;
+  width: 80%;
+  letter-spacing: -0.5px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 100px;
+  margin: 0px;
+}
+
+.subtitle {
+  font-weight: 800;
+  font-size: 30px;
+  color: hsl(0, 0%, 30%);
+}
+
+.entry {
+  color: rgb(97, 211, 126);
+}
