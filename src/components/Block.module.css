@@ -1,0 +1,12 @@
+.block {
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: rgb(255, 231, 187);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.blockText {
+  margin-left: 5px;
+}

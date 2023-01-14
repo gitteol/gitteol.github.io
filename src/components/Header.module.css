@@ -1,6 +1,5 @@
 .header {
-  margin: 80px auto;
-  width: 80%;
+  margin: 80px auto 30px 0px;
   letter-spacing: -0.5px;
 }
 
@@ -8,6 +7,12 @@
   font-weight: 800;
   font-size: 100px;
   margin: 0px;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 80px;
+  }
 }
 
 .subtitle {
@@ -18,4 +23,10 @@
 
 .entry {
   color: rgb(97, 211, 126);
+}
+
+.btns {
+  margin: 20px 0px;
+  display: flex;
+  gap: 10px;
 }

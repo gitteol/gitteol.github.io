@@ -1,4 +1,10 @@
 .app {
   margin: 20px auto;
-  width: 80%;
+  width: 70%;
+}
+
+@media (max-width: 480px) {
+  .app {
+    width: 95%;
+  }
 }

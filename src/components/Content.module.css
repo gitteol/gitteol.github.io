@@ -1,0 +1,20 @@
+.container {
+  font-size: 18px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 480px) {
+  .features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

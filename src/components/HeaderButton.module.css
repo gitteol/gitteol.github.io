@@ -1,0 +1,18 @@
+.container {
+  background-color: rgb(203, 203, 254);
+  color: rgb(80, 80, 175);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover {
+  background-color: rgb(189, 189, 251);
+}
+
+.text {
+  margin-left: 5px;
+  font-size: 20px;
+}
