@@ -10,7 +10,7 @@ function Header() {
       <div className={styles.btns}>
         <HeaderButton Icon={GitHub} text="소스 코드" url='https://github.com/gitteol/gitteol' />
         <HeaderButton Icon={Book} text="문서" url='/book' />
-        <HeaderButton Icon={FileText} text="API 문서" />
+        <HeaderButton Icon={FileText} text="rustdoc" url='/rustdoc/gitteol/index.html' />
       </div>
     </header>
   )
